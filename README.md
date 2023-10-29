@@ -42,6 +42,23 @@ Fig 2. Features Distribution
 2. There are outliers in Area Income feature <br>
 3. Clicked on Ad (target feature) is balanced <br>
 
+### Bivariate Analysis
+3. Boxplot Bivariate Features Distribution
+<p align="center">
+  <img src= "https://github.com/jedijm/Predict-Clicked-Ads-Customer-Classification/blob/main/asset/boxplot_bivariate.png"> <br>
+Fig 3. Boxplot Distribution
+</p>
 
+4. KDE Plot Bivariate Features Distribution
+<p align="center">
+  <img src= "https://github.com/jedijm/Predict-Clicked-Ads-Customer-Classification/blob/main/asset/kdeplot.png"> <br>
+Fig 4. KDE Plot Bivariate Features Distribution
+</p>
 
-
+**Key Takeaways** <br>
+1. Daily Time Spent on Site <br>
+Customer yang menghabiskan waktu lebih sedikit di site (< 60 menit) cenderung melakukan klik pada iklan. <br>
+2. Daily Internet Usage <br>
+Customer dengan pemakaian internet lebih rendah cenderung melakukan klik pada iklan. <br>
+3. Age <br>
+Customer dengan umur lebih tua lebih cnederung melakukan klik pada iklan <br>
