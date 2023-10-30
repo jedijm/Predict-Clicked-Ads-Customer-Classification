@@ -78,7 +78,50 @@ Table 1. Data Pre-Processing Treatment <br>
 Fig 6. Pre-processed Dataframe
 </p>
 
-
- ## Data Modelling
+## Data Modelling
  
+### Experiment 1 (Without Standardization)
 
+1. Model Result Without Standardization
+<p align="center">
+  <img src= "https://github.com/jedijm/Predict-Clicked-Ads-Customer-Classification/blob/main/asset/without_stand.png"> <br>
+Fig 7. Model Result Without Standardization
+</p>
+
+2. Confusion Matrix
+<p align="center">
+  <img src= "https://github.com/jedijm/Predict-Clicked-Ads-Customer-Classification/blob/main/asset/matrix_unstandardized.png"> <br>
+Fig 8. Confusion Matrix
+</p>
+
+3. SHAP Analysis
+<p align="center">
+  <img src= "https://github.com/jedijm/Predict-Clicked-Ads-Customer-Classification/blob/main/asset/shap.png"> <br>
+Fig 9. SHAP Analysis
+</p>
+
+### Experiment 2 (With Standardization)
+1. Model Result
+<p align="center">
+  <img src= "https://github.com/jedijm/Predict-Clicked-Ads-Customer-Classification/blob/main/asset/standardized.png"> <br>
+Fig 10. Model Result
+</p>
+
+2. Confusion Matrix
+<p align="center">
+  <img src= "https://github.com/jedijm/Predict-Clicked-Ads-Customer-Classification/blob/main/asset/matrix_stand.png"> <br>
+Fig 11. Confusion Matrix
+</p>
+
+## Business Simulation
+### 1. Conversion Rate
+<p align="center">
+  <img src= "https://github.com/jedijm/Predict-Clicked-Ads-Customer-Classification/blob/main/asset/crt.png"> <br>
+Fig 12. Conversion Rate
+</p>
+
+### 2. Revenue Calculation
+<p align="center">
+  <img src= "https://github.com/jedijm/Predict-Clicked-Ads-Customer-Classification/blob/main/asset/revenue.png"> <br>
+Fig 13. Revenue Calculation
+</p>
