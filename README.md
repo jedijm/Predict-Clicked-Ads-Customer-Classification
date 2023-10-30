@@ -48,11 +48,11 @@ Fig 4. KDE Plot Bivariate Features Distribution
 </p>
 
 **Key Takeaways** <br>
-1. Daily Time Spent on Site <br>
+1. `Daily Time Spent on Site` <br>
 Customer yang menghabiskan waktu lebih sedikit di site (< 60 menit) cenderung melakukan klik pada iklan. <br>
-2. Daily Internet Usage <br>
+2. `Daily Internet Usage` <br>
 Customer dengan pemakaian internet lebih rendah cenderung melakukan klik pada iklan. <br>
-3. Age <br>
+3. `Age` <br>
 Customer dengan umur lebih tua lebih cnederung melakukan klik pada iklan <br>
 
 **3. Heatmap Correlation**
