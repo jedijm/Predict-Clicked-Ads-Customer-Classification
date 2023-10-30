@@ -17,13 +17,13 @@ Libraries: Pandas, Numpy, Shap, Yellowbrick, Matplotlib, Seaborn
 Dataset consisted of 1000 rows and 11 features, 6 categoric & 5 numeric features.
 
 ### I. Univariate Analysis
-1. Features Distribution
+**1. Features Distribution**
 <p align="center">
   <img src= "https://github.com/jedijm/Predict-Clicked-Ads-Customer-Classification/blob/main/asset/histplot.png"> <br>
 Fig 1. Features Distribution
 </p>
 
-2. `Male`, `Clicked on Ads`, `Category` Distribution
+**2. `Male`, `Clicked on Ads`, `Category` Distribution**
 <p align="center">
   <img src= "https://github.com/jedijm/Predict-Clicked-Ads-Customer-Classification/blob/main/asset/category.png"> <br>
 Fig 2. Features Distribution
@@ -35,13 +35,13 @@ Fig 2. Features Distribution
 3. Clicked on Ad (target feature) is balanced <br>
 
 ### II. Bivariate Analysis
-1. Boxplot Bivariate Features Distribution
+**1. Boxplot Bivariate Features Distribution**
 <p align="center">
   <img src= "https://github.com/jedijm/Predict-Clicked-Ads-Customer-Classification/blob/main/asset/boxplot_bivariate.png"> <br>
 Fig 3. Boxplot Distribution
 </p>
 
-2. KDE Plot Bivariate Features Distribution
+**2. KDE Plot Bivariate Features Distribution**
 <p align="center">
   <img src= "https://github.com/jedijm/Predict-Clicked-Ads-Customer-Classification/blob/main/asset/kdeplot.png"> <br>
 Fig 4. KDE Plot Bivariate Features Distribution
@@ -55,7 +55,7 @@ Customer dengan pemakaian internet lebih rendah cenderung melakukan klik pada ik
 3. Age <br>
 Customer dengan umur lebih tua lebih cnederung melakukan klik pada iklan <br>
 
-3. Heatmap Correlation
+**3. Heatmap Correlation**
 <p align="center">
   <img src= "https://github.com/jedijm/Predict-Clicked-Ads-Customer-Classification/blob/main/asset/heatmap.png"> <br>
 Fig 5. Heatmap Correlation
@@ -63,7 +63,7 @@ Fig 5. Heatmap Correlation
 
 ## Data Pre-Processing
 
-Table 1. Data Pre-Processing Treatment <br>
+**Table 1. Data Pre-Processing Treatment** <br>
 **No**  |     **Treatment**      |    **Findings**     |    **Actions**     |
 :-----: |    ----------------    |    ------------     |--------------------|
 1 |   Handling Missing Values    |    Null Values are identified in few features : <br> 1. `Daily Time Spent on Site` <br> 2. `Area Income` <br> 3. `Daily Internet Usage` <br> 4. `Male`    |- Replacing Null with Mode value in `Male` <br> - Replacing Null with Median value in `Daily Time Spent on Site`, `Area Income`, `Daily Internet Usage`|
@@ -72,7 +72,7 @@ Table 1. Data Pre-Processing Treatment <br>
 4 |  Feature Extraction | `Timestamp` is extractable | Extract `Timestamp` to `Year`, `Week`, `Day`, `Hour` |
 5 | Feature Encoding | `Clicked on Ad`, `Male`, `Category` can be encoded | - `Clicked on Ad`, `Male` encoded to 1 & 0 <br> - `Category` encoded with pd.get_dummies |
 
-1. Pre-processed Dataframe for Model
+**1. Pre-processed Dataframe for Model**
 <p align="center">
   <img src= "https://github.com/jedijm/Predict-Clicked-Ads-Customer-Classification/blob/main/asset/df_model.png"> <br>
 Fig 6. Pre-processed Dataframe
@@ -82,13 +82,13 @@ Fig 6. Pre-processed Dataframe
  
 ### Experiment 1 (Without Standardization)
 
-1. Model Result Without Standardization
+**1. Model Result Without Standardization**
 <p align="center">
   <img src= "https://github.com/jedijm/Predict-Clicked-Ads-Customer-Classification/blob/main/asset/without_stand.png"> <br>
 Fig 7. Model Result Without Standardization
 </p>
 
-2. Confusion Matrix
+**2. Confusion Matrix**
 <p align="center">
   <img src= "https://github.com/jedijm/Predict-Clicked-Ads-Customer-Classification/blob/main/asset/matrix_unstandardized.png"> <br>
 Fig 8. Confusion Matrix
@@ -101,13 +101,13 @@ Fig 9. SHAP Analysis
 </p>
 
 ### Experiment 2 (With Standardization)
-1. Model Result
+**1. Model Result**
 <p align="center">
   <img src= "https://github.com/jedijm/Predict-Clicked-Ads-Customer-Classification/blob/main/asset/standardized.png"> <br>
 Fig 10. Model Result
 </p>
 
-2. Confusion Matrix
+**2. Confusion Matrix**
 <p align="center">
   <img src= "https://github.com/jedijm/Predict-Clicked-Ads-Customer-Classification/blob/main/asset/matrix_stand.png"> <br>
 Fig 11. Confusion Matrix
