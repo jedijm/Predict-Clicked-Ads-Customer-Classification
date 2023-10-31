@@ -125,3 +125,6 @@ Fig 12. Conversion Rate
   <img src= "https://github.com/jedijm/Predict-Clicked-Ads-Customer-Classification/blob/main/asset/revenue.png"> <br>
 Fig 13. Revenue Calculation
 </p>
+
+# Conclusion
+The machine learning model used to predict clicked ads based on customer behaviour is able to increase approximately 50% of the conversion rate which subsequently increase the revenue from 370$ to 735$.
