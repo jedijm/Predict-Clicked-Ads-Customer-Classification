@@ -136,4 +136,4 @@ Fig 13. Revenue Calculation
 </p>
 
 # Conclusion
-The machine learning model used to predict clicked ads based on customer behaviour is able to increase approximately 50% of the conversion rate which subsequently increase the revenue from 370$ to 735$.
+Clicked Ads is strongly related to Daily Internet Usage & Daily Time Spent on Site of customer. Thus, both features should be focused by the marketing team. Beside that, the machine learning model used to predict clicked ads based on customer behaviour is able to increase approximately 50% of the conversion rate which subsequently increase the revenue from 370$ to 735$.
