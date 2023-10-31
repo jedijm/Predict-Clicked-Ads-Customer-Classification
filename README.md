@@ -100,6 +100,15 @@ Fig 8. Confusion Matrix
 Fig 9. SHAP Analysis
 </p>
 
+SHAP Value menunjukkan feature-feature yang berpengaruh adalah: <br>
+1. Daily Internet Usage <br>
+2. Daily Time Spent on Site <br>
+3. Area Income <br>
+4. Age <br>
+5. Day <br>
+
+Feature `Daily Internet Usage`, `Daily Time Spent on Site`, `Area Income`, dan `Day` menunjukkan hubungan korelasi negative dengan feature target yang ditunjukkan oleh warna merah. Artinya, semakin kecil nilai feature-feature tersebut maka Klik pada Ads semakin besar, begitu pula sebaliknya.
+
 ### Experiment 2 (With Standardization)
 **1. Model Result**
 <p align="center">
